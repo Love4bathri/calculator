@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100dvh;
+    background-image: linear-gradient(45deg , rgba(3, 0, 1, 0.788), rgb(41, 38, 38));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+h2{
+    text-align: center;
+    color: rgb(247, 246, 244);
+}
+#cal{
+     border: 3px solid rgb(71, 53, 53);
+     padding: 20px;
+     border-radius: 15px;
+     box-shadow: 0px 15px 20px rgb(103, 80, 80);
+}
+input{
+   
+    width: 320px;
+    border: none;
+    padding: 20px;
+    margin: 5px;
+    background: transparent;
+    text-align: right;
+    box-shadow: 0px 3px 15px rgba(212, 181, 242, 0.546);
+    cursor: pointer;
+    font-size: 15px;
+    color: rgb(235, 235, 235);
+}
+input::placeholder{
+    color: white;
+}
+button{
+    border: none;
+    width: 60px;
+    height: 55px;
+    margin: 5px;
+    background: transparent;
+    border-radius: 50%;
+    color: rgb(225, 224, 223);
+   box-shadow: -8px 8px 4px rgb(251, 251, 251);
+   cursor: pointer;
+}
